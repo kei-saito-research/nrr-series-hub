@@ -80,6 +80,9 @@ Phase 1.5 is the stateless API execution pattern stabilized in IME and then reus
 ## Reproducibility Entry
 For each line, see the repository `README.md` and `reproducibility.md` as first entry points.
 
+## DOI / Archive
+For citation-ready archived versions, use the DOI/Zenodo links listed in each paper repository README.
+
 ## Notes on Claims
 - Claims are condition-bounded.
 - Gains and regressions are both reported.
