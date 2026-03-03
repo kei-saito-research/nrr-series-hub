@@ -37,19 +37,23 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Code: https://github.com/kei-saito-research/nrr-ime
 
 4. NRR-Transfer
-- Paper: pre-submission line
+- Publication: pre-submission (no arXiv URL yet)
+- Manuscript: available in repository
 - Code: https://github.com/kei-saito-research/nrr-transfer
 
 5. NRR-Coupled (cp)
-- Paper: pre-submission line
+- Publication: pre-submission (no arXiv URL yet)
+- Manuscript: available in repository
 - Code: https://github.com/kei-saito-research/nrr-coupled
 
 6. NRR-Principles
-- Paper: in preparation
+- Publication: in preparation
+- Manuscript: available in repository (working/pre-submission snapshots)
 - Code: https://github.com/kei-saito-research/nrr-principles
 
 7. NRR-Boundary
-- Paper: claim-boundary snapshot line (pre-submission)
+- Publication: pre-submission (no arXiv URL yet)
+- Manuscript: available in repository
 - Code: https://github.com/kei-saito-research/nrr-boundary
 
 8. NRR-Hout
