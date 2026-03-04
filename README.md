@@ -41,7 +41,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - No paper is assigned to `paper3`.
 
 4. NRR-IME
-- Paper: arXiv submission not accepted (decision received 2026-03-05 JST)
+- Paper: external preprint posting line active (platform-dependent)
 - Code: https://github.com/kei-saito-research/nrr-ime
 
 5. NRR-Transfer
