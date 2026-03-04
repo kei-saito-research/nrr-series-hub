@@ -1,6 +1,6 @@
 # NRR Series Hub
 
-Last updated: 2026-03-04 (JST)
+Last updated: 2026-03-05 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
 
@@ -13,15 +13,20 @@ NRR is not an anti-LLM framework.
 NRR does not replace standard LLM use.
 NRR optimizes when to commit and when to defer, under explicit conditions.
 
+## Series Numbering Policy
+- `paper3` is permanently skipped and never reused.
+- Active paper IDs are: `1, 2, 4, 5, 6, 7`.
+
 ## Read Order
 1. NRR-Core
 2. NRR-Phi
-3. NRR-IME
-4. NRR-Transfer
-5. NRR-Coupled (cp)
-6. NRR-Principles
-7. NRR-Boundary
-8. NRR-Hout (planned/deferred)
+3. (intentionally skipped)
+4. NRR-IME
+5. NRR-Transfer
+6. NRR-Coupled (cp)
+7. NRR-Principles
+8. NRR-Boundary
+9. NRR-Hout (planned/deferred)
 
 ## Papers and Repositories
 1. NRR-Core
@@ -32,35 +37,38 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Paper: https://arxiv.org/abs/2601.19933
 - Code: https://github.com/kei-saito-research/nrr-phi
 
-3. NRR-IME
-- Paper: under moderation (submitted 2026-02-10 EST)
+3. (intentionally skipped)
+- No paper is assigned to `paper3`.
+
+4. NRR-IME
+- Paper: arXiv submission not accepted (decision received 2026-03-05 JST)
 - Code: https://github.com/kei-saito-research/nrr-ime
 
-4. NRR-Transfer
+5. NRR-Transfer
 - Publication: pre-submission (no arXiv URL yet)
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-transfer/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-transfer
 
-5. NRR-Coupled (cp)
+6. NRR-Coupled (cp)
 - Publication: pre-submission (no arXiv URL yet)
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-coupled/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-coupled
 
-6. NRR-Principles
+7. NRR-Principles
 - Publication: in preparation
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-principles/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-principles
 
-7. NRR-Boundary
+8. NRR-Boundary
 - Publication: pre-submission (no arXiv URL yet)
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-boundary/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-boundary
 
-8. NRR-Hout
+9. NRR-Hout
 - Paper: planned/deferred
 - Code: https://github.com/kei-saito-research/nrr-hout
 
