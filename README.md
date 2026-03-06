@@ -3,6 +3,7 @@
 Last updated: 2026-03-05 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
+Maintainer profile: https://github.com/kei-saito-research
 
 ## What This Page Is
 This page is a public-facing index for the Non-Resolution Reasoning (NRR) series.
