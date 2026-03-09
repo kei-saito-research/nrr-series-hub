@@ -28,6 +28,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 7. NRR-Principles
 8. NRR-Boundary
 9. NRR-Hout (planned/deferred)
+Companion line: NRR-Projection (Phi companion / Boundary bridge)
 
 ## Papers and Repositories
 1. NRR-Core
@@ -69,6 +70,11 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
   https://github.com/kei-saito-research/nrr-boundary/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-boundary
 
+Companion. NRR-Projection
+- Publication: companion / bridge line (not a numbered main-series paper)
+- Manuscript: evolving local draft / review line
+- Code: https://github.com/kei-saito-research/nrr-projection
+
 9. NRR-Hout
 - Paper: planned/deferred
 - Code: https://github.com/kei-saito-research/nrr-hout
@@ -81,6 +87,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Coupled: dependency-consistency under coupled state updates.
 - Principles: consolidated design principles and framing constraints.
 - Boundary: provider-pattern-order boundary mapping (improvement/degradation/non-effective regions).
+- Projection: Phi companion theory line linking the Phi state ontology to Boundary-side empirical patterns through a condition-bounded bridge reading.
 - Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
