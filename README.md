@@ -1,6 +1,6 @@
 # NRR Series Hub
 
-Last updated: 2026-03-05 (JST)
+Last updated: 2026-03-10 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
 Maintainer profile: https://github.com/kei-saito-research
@@ -28,7 +28,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 7. NRR-Principles
 8. NRR-Boundary
 9. NRR-Hout (planned/deferred)
-Companion line: NRR-Projection (Phi companion / Boundary bridge)
+Companion line: NRR-Projection (Phi companion / interpretive link to Boundary)
 
 ## Papers and Repositories
 1. NRR-Core
@@ -71,7 +71,7 @@ Companion line: NRR-Projection (Phi companion / Boundary bridge)
 - Code: https://github.com/kei-saito-research/nrr-boundary
 
 Companion. NRR-Projection
-- Publication: companion / bridge line (not a numbered main-series paper)
+- Publication: companion / interpretive line (not a numbered main-series paper)
 - Manuscript: evolving local draft / review line
 - Code: https://github.com/kei-saito-research/nrr-projection
 
@@ -87,7 +87,7 @@ Companion. NRR-Projection
 - Coupled: dependency-consistency under coupled state updates.
 - Principles: consolidated design principles and framing constraints.
 - Boundary: provider-pattern-order boundary mapping (improvement/degradation/non-effective regions).
-- Projection: Phi companion theory line linking the Phi state ontology to Boundary-side empirical patterns through a condition-bounded bridge reading.
+- Projection: Phi companion theory line linking the Phi state ontology to Boundary-side empirical patterns through a condition-bounded interpretive reading.
 - Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
