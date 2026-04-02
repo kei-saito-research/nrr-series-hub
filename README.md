@@ -26,7 +26,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 5. standalone `reuse` line (`paper5` slot; historical `paper5-nrr-transfer-*` filenames retained for continuity)
 6. NRR-Coupled (cp)
 7. NRR-Patterns (integrated paper7 authority; historical `Principles` / `Boundary` continuity retained separately)
-8. NRR-Energy (local line; public repo/origin policy hold)
+8. NRR-Energy (public pre-submission authority line)
 9. NRR-Guarantee (local downstream line; public repo/origin policy hold)
 10. NRR-Hout (planned/deferred)
 Companion line: NRR-Projection (Phi companion / interpretive link to integrated paper7 package-first surfaces)
@@ -71,7 +71,8 @@ Companion line: NRR-Projection (Phi companion / interpretive link to integrated 
   - https://github.com/kei-saito-research/nrr-boundary
 
 8. NRR-Energy
-- Publication: planning/spec phase in the local workspace; public repo/origin policy not yet fixed
+- Publication: public pre-submission calibration / operational-control line
+- Code: https://github.com/kei-saito-research/nrr-energy
 
 9. NRR-Guarantee
 - Publication: local closed downstream line; public repo/origin policy not yet fixed
@@ -104,7 +105,8 @@ Phase 1.5 is the stateless API execution pattern stabilized in IME and then reus
 - The current authoritative `paper5` line is the standalone `reuse` line, not the older public `nrr-transfer` repository label.
 - If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
 - If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
-- `Energy` and `Guarantee` remain part of the current series spine, but their public repo/origin handling is intentionally left unresolved for now.
+- `Energy` is now public as its own pre-submission authority repo.
+- `Guarantee` remains part of the current series spine, but its public repo/origin handling is intentionally left unresolved for now.
 
 ## Reproducibility Entry
 For each line, see the repository `README.md` and `reproducibility.md` as first entry points.
