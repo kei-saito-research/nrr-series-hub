@@ -1,6 +1,6 @@
 # NRR Series Hub
 
-Last updated: 2026-03-10 (JST)
+Last updated: 2026-04-02 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
 Maintainer profile: https://github.com/kei-saito-research
@@ -22,13 +22,14 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 1. NRR-Core
 2. NRR-Phi
 3. (intentionally skipped)
-4. NRR-IME
-5. NRR-Transfer
+4. NRR-IME (currently hold)
+5. standalone `reuse` line (`paper5` slot; historical `paper5-nrr-transfer-*` filenames retained for continuity)
 6. NRR-Coupled (cp)
-7. NRR-Principles
-8. NRR-Boundary
-9. NRR-Hout (planned/deferred)
-Companion line: NRR-Projection (Phi companion / interpretive link to Boundary)
+7. integrated paper7 (`NRR-Principles` + selected `NRR-Boundary` carry-forward)
+8. NRR-Energy (local line; public repo/origin policy hold)
+9. NRR-Guarantee (local downstream line; public repo/origin policy hold)
+10. NRR-Hout (planned/deferred)
+Companion line: NRR-Projection (Phi companion / interpretive link to integrated paper7 package-first surfaces)
 
 ## Papers and Repositories
 1. NRR-Core
@@ -43,55 +44,64 @@ Companion line: NRR-Projection (Phi companion / interpretive link to Boundary)
 - No paper is assigned to `paper3`.
 
 4. NRR-IME
-- Paper: external preprint posting line active (platform-dependent)
+- Publication: currently on hold after arXiv rejection
 - Code: https://github.com/kei-saito-research/nrr-ime
 
-5. NRR-Transfer
-- Publication: pre-submission (no arXiv URL yet)
-- Manuscript: available in repository (`manuscript/current`)  
-  https://github.com/kei-saito-research/nrr-transfer/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-transfer
+5. standalone `reuse` line (`paper5` slot)
+- Title: Cross-Task Parser/Update Reuse of a Fixed Hidden-State Operator-Target Interface on Stateless LLM APIs
+- Publication: reconstructed standalone submission line active
+- Manuscript: available in repository (`manuscript/current`)
+  https://github.com/kei-saito-research/hidden-state-interface-reuse/tree/main/manuscript/current
+- Code: https://github.com/kei-saito-research/hidden-state-interface-reuse
+- Historical continuity repository: https://github.com/kei-saito-research/nrr-transfer
 
 6. NRR-Coupled (cp)
-- Publication: pre-submission (no arXiv URL yet)
+- Publication: pre-submission supporting line
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-coupled/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-coupled
 
-7. NRR-Principles
-- Publication: in preparation
+7. integrated paper7 (`NRR-Principles` + selected `NRR-Boundary` carry-forward)
+- Publication: in preparation (current mainline for the former standalone `Principles` / `Boundary` zone)
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-principles/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-principles
 
-8. NRR-Boundary
-- Publication: pre-submission (no arXiv URL yet)
-- Manuscript: available in repository (`manuscript/current`)  
-  https://github.com/kei-saito-research/nrr-boundary/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-boundary
+8. NRR-Energy
+- Publication: planning/spec phase in the local workspace; public repo/origin policy not yet fixed
+
+9. NRR-Guarantee
+- Publication: local closed downstream line; public repo/origin policy not yet fixed
 
 Companion. NRR-Projection
 - Publication: companion / interpretive line (not a numbered main-series paper)
 - Manuscript: evolving local draft / review line
 - Code: https://github.com/kei-saito-research/nrr-projection
 
-9. NRR-Hout
+10. NRR-Hout
 - Paper: planned/deferred
 - Code: https://github.com/kei-saito-research/nrr-hout
 
 ## One-Line Scope
 - Core: introduces NRR and non-resolution as an operational principle.
 - Phi: defines text-to-state mapping and non-collapsing operator conditions.
-- IME: implementation pattern under stateless API constraints.
-- Transfer: cross-domain transfer behavior under fixed interface contracts.
+- IME: implementation pattern under stateless API constraints; currently held rather than being accelerated as the next standalone public line.
+- reuse (`paper5` slot): cross-task parser/update reuse of a fixed hidden-state operator-target interface under shared protocol conditions.
 - Coupled: dependency-consistency under coupled state updates.
-- Principles: consolidated design principles and framing constraints.
-- Boundary: provider-pattern-order boundary mapping (improvement/degradation/non-effective regions).
-- Projection: Phi companion theory line linking the Phi state ontology to Boundary-side empirical patterns through a condition-bounded interpretive reading.
+- integrated paper7: delayed-commitment pattern comparison with explicit provider-sensitive boundary-honesty reporting.
+- Energy: downstream calibration and operating-regime line.
+- Guarantee: closure and assurance line for commitment-control behavior.
+- Projection: Phi companion theory line linking the Phi state ontology to integrated paper7 package-first empirical surfaces through a condition-bounded interpretive reading.
 - Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
-Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across Transfer, Coupled, Principles, and Boundary lines.
+Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the integrated paper7 line.
+
+## Current Handling Note
+- The current authoritative `paper5` line is the standalone `reuse` line, not the older public `nrr-transfer` repository label.
+- If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
+- If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
+- `Energy` and `Guarantee` remain part of the current series spine, but their public repo/origin handling is intentionally left unresolved for now.
 
 ## Reproducibility Entry
 For each line, see the repository `README.md` and `reproducibility.md` as first entry points.
