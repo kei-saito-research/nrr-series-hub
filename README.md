@@ -25,7 +25,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 4. NRR-IME (currently hold)
 5. standalone `reuse` line (`paper5` slot; historical `paper5-nrr-transfer-*` filenames retained for continuity)
 6. NRR-Coupled (cp)
-7. integrated paper7 (`NRR-Principles` + selected `NRR-Boundary` carry-forward)
+7. NRR-Patterns (integrated paper7 authority; historical `Principles` / `Boundary` continuity retained separately)
 8. NRR-Energy (local line; public repo/origin policy hold)
 9. NRR-Guarantee (local downstream line; public repo/origin policy hold)
 10. NRR-Hout (planned/deferred)
@@ -61,11 +61,14 @@ Companion line: NRR-Projection (Phi companion / interpretive link to integrated 
   https://github.com/kei-saito-research/nrr-coupled/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-coupled
 
-7. integrated paper7 (`NRR-Principles` + selected `NRR-Boundary` carry-forward)
+7. NRR-Patterns
 - Publication: in preparation (current mainline for the former standalone `Principles` / `Boundary` zone)
 - Manuscript: available in repository (`manuscript/current`)  
-  https://github.com/kei-saito-research/nrr-principles/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-principles
+  https://github.com/kei-saito-research/nrr-patterns/tree/main/manuscript/current
+- Code: https://github.com/kei-saito-research/nrr-patterns
+- Historical continuity repositories:
+  - https://github.com/kei-saito-research/nrr-principles
+  - https://github.com/kei-saito-research/nrr-boundary
 
 8. NRR-Energy
 - Publication: planning/spec phase in the local workspace; public repo/origin policy not yet fixed
@@ -88,14 +91,14 @@ Companion. NRR-Projection
 - IME: implementation pattern under stateless API constraints; currently held rather than being accelerated as the next standalone public line.
 - reuse (`paper5` slot): cross-task parser/update reuse of a fixed hidden-state operator-target interface under shared protocol conditions.
 - Coupled: dependency-consistency under coupled state updates.
-- integrated paper7: delayed-commitment pattern comparison with explicit provider-sensitive boundary-honesty reporting.
+- NRR-Patterns: delayed-commitment pattern comparison with explicit provider-sensitive boundary-honesty reporting.
 - Energy: downstream calibration and operating-regime line.
 - Guarantee: closure and assurance line for commitment-control behavior.
 - Projection: Phi companion theory line linking the Phi state ontology to integrated paper7 package-first empirical surfaces through a condition-bounded interpretive reading.
 - Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
-Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the integrated paper7 line.
+Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the `NRR-Patterns` line.
 
 ## Current Handling Note
 - The current authoritative `paper5` line is the standalone `reuse` line, not the older public `nrr-transfer` repository label.
