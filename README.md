@@ -1,6 +1,6 @@
 # NRR Series Hub
 
-Last updated: 2026-04-02 (JST)
+Last updated: 2026-04-11 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
 Maintainer profile: https://github.com/kei-saito-research
@@ -22,14 +22,14 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 1. NRR-Core
 2. NRR-Phi
 3. (intentionally skipped)
-4. NRR-IME (currently hold)
-5. standalone `reuse` line (`paper5` slot; historical `paper5-nrr-transfer-*` filenames retained for continuity)
+4. NRR-IME (currently on hold)
+5. standalone `reuse` line (`paper5` slot; current submission line now on hold; historical `paper5-nrr-transfer-*` filenames retained for continuity)
 6. NRR-Coupled (cp)
 7. NRR-Patterns (integrated paper7 authority; historical `Principles` / `Boundary` continuity retained separately)
 8. NRR-Energy (public pre-submission authority line)
 9. NRR-Guarantee (public pre-submission authority line)
 10. NRR-Hout (planned/deferred)
-Companion line: NRR-Projection (Phi companion / interpretive link to integrated paper7 package-first surfaces)
+Companion line: NRR-Projection (public Phi companion / interpretive bridge to `NRR-Patterns` and downstream `Energy` / `Guarantee` surfaces)
 
 ## Papers and Repositories
 1. NRR-Core
@@ -49,7 +49,7 @@ Companion line: NRR-Projection (Phi companion / interpretive link to integrated 
 
 5. standalone `reuse` line (`paper5` slot)
 - Title: Cross-Task Parser/Update Reuse of a Fixed Hidden-State Operator-Target Interface on Stateless LLM APIs
-- Publication: reconstructed standalone submission line active
+- Publication: reconstructed standalone submission line; current submission handling is on hold
 - Manuscript: available in repository (`manuscript/current`)
   https://github.com/kei-saito-research/hidden-state-interface-reuse/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/hidden-state-interface-reuse
@@ -62,7 +62,7 @@ Companion line: NRR-Projection (Phi companion / interpretive link to integrated 
 - Code: https://github.com/kei-saito-research/nrr-coupled
 
 7. NRR-Patterns
-- Publication: in preparation (current mainline for the former standalone `Principles` / `Boundary` zone)
+- Publication: public repository (pre-submission authority line for the former standalone `Principles` / `Boundary` zone)
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-patterns/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-patterns
@@ -72,15 +72,20 @@ Companion line: NRR-Projection (Phi companion / interpretive link to integrated 
 
 8. NRR-Energy
 - Publication: public pre-submission calibration / operational-control line
+- Manuscript: available in repository (`manuscript/current`)
+  https://github.com/kei-saito-research/nrr-energy/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-energy
 
 9. NRR-Guarantee
 - Publication: public pre-submission bounded verification / assurance line
+- Manuscript: available in repository (`manuscript/current`)
+  https://github.com/kei-saito-research/nrr-guarantee/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-guarantee
 
 Companion. NRR-Projection
-- Publication: companion / interpretive line (not a numbered main-series paper)
-- Manuscript: evolving local draft / review line
+- Publication: public repository (pre-submission companion theory line; not a numbered main-series paper)
+- Manuscript: available in repository (`manuscript/current`)
+  https://github.com/kei-saito-research/nrr-projection/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-projection
 
 10. NRR-Hout
@@ -96,7 +101,7 @@ Companion. NRR-Projection
 - NRR-Patterns: delayed-commitment pattern comparison with explicit provider-sensitive boundary-honesty reporting.
 - Energy: downstream calibration and operating-regime line.
 - Guarantee: closure and assurance line for commitment-control behavior.
-- Projection: Phi companion theory line linking the Phi state ontology to integrated paper7 package-first empirical surfaces through a condition-bounded interpretive reading.
+- Projection: Phi companion theory line linking the Phi state ontology to `NRR-Patterns` and downstream `Energy` / `Guarantee` surfaces through a condition-bounded interpretive reading.
 - Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
@@ -104,8 +109,11 @@ Phase 1.5 is the stateless API execution pattern stabilized in IME and then reus
 
 ## Current Handling Note
 - The current authoritative `paper5` line is the standalone `reuse` line, not the older public `nrr-transfer` repository label.
+- The current standalone `reuse` submission handling is on hold while that line remains the active `paper5` authority surface.
 - If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
 - If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
+- `NRR-Patterns` is the current public authority for the former standalone `Principles` / `Boundary` zone.
+- `NRR-Projection` is now public as its own pre-submission companion repo.
 - `Energy` is now public as its own pre-submission authority repo.
 - `Guarantee` is now public as its own pre-submission authority repo.
 
