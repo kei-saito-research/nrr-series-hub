@@ -15,8 +15,9 @@ NRR does not replace standard LLM use.
 NRR optimizes when to commit and when to defer, under explicit conditions.
 
 ## Naming Note
-- Public naming follows repository and manuscript titles rather than older internal paper-number labels.
-- Some current public artifacts still retain historical filename stems such as `paper5-nrr-transfer-*` or `paper7_integrated_*` for continuity; read the repository title and README as the current public naming.
+- Public naming follows repository and manuscript titles rather than older internal labels.
+- Some current public artifacts still retain historical filename stems for continuity; read the repository title and README as the current public naming.
+- Where older `paper*` labels remain inside fixed filenames or cited snapshots, treat them as historical snapshot identifiers only, not as current public numbering.
 
 ## Current Public Spine
 - NRR-Core
@@ -65,7 +66,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-patterns/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-patterns
-- Historical continuity repositories:
+- Public archive repositories:
   - https://github.com/kei-saito-research/nrr-principles
   - https://github.com/kei-saito-research/nrr-boundary
 
@@ -119,6 +120,7 @@ Phase 1.5 is the stateless API execution pattern stabilized in IME and then reus
 - If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
 - If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
 - `NRR-Patterns` is the current public authority for the former standalone `Principles` / `Boundary` zone.
+- `nrr-principles` and `nrr-boundary` should be read as public archive repos for that older zone, not as competing current authorities.
 - `NRR-Projection` is now public as its own pre-submission companion repo.
 - `post-acceptance-gap` is now public as its own bounded release-surface repo.
 - `Energy` is now public as its own pre-submission authority repo.
