@@ -28,7 +28,6 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - NRR-Patterns
 - NRR-Energy
 - NRR-Guarantee
-- NRR-Hout (planned/deferred)
 
 ## Companion And Adjacent Public Lines
 - NRR-Projection
@@ -94,10 +93,6 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
   https://github.com/kei-saito-research/post-acceptance-gap/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/post-acceptance-gap
 
-### NRR-Hout
-- Paper: planned/deferred
-- Code: https://github.com/kei-saito-research/nrr-hout
-
 ## One-Line Scope
 - Core: introduces NRR and non-resolution as an operational principle.
 - Phi: defines text-to-state mapping and non-collapsing operator conditions.
@@ -109,7 +104,6 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Guarantee: closure and assurance line for commitment-control behavior.
 - Projection: Phi companion theory line linking the Phi state ontology to `NRR-Patterns` and downstream `Energy` / `Guarantee` surfaces through a condition-bounded interpretive reading.
 - PAG: bounded explicit-state-carrying line centered on the post-acceptance gap under a public release surface.
-- Hout: output-side ambiguity diagnostic layer.
 
 ## Cross-Series Implementation Note (Phase 1.5)
 Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the `NRR-Patterns` line.
