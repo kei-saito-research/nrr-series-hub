@@ -52,7 +52,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Manuscript: available in repository (`manuscript/current`)
   https://github.com/kei-saito-research/hidden-state-interface-reuse/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/hidden-state-interface-reuse
-- Related historical repository: https://github.com/kei-saito-research/nrr-transfer
+- Historical standalone `transfer`-named material is subsumed into the current `hidden-state-interface-reuse` authority surface and is not listed as a separate public repository here.
 
 ### NRR-Coupled
 - Publication: pre-submission supporting line
@@ -65,9 +65,7 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Manuscript: available in repository (`manuscript/current`)  
   https://github.com/kei-saito-research/nrr-patterns/tree/main/manuscript/current
 - Code: https://github.com/kei-saito-research/nrr-patterns
-- Public archive repositories:
-  - https://github.com/kei-saito-research/nrr-principles
-  - https://github.com/kei-saito-research/nrr-boundary
+- Historical standalone `Principles` / `Boundary` material is subsumed into the current `NRR-Patterns` authority surface and is not listed here as separate public repositories.
 
 ### NRR-Energy
 - Publication: public pre-submission calibration / operational-control line
@@ -105,9 +103,21 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Projection: Phi companion theory line linking the Phi state ontology to `NRR-Patterns` and downstream `Energy` / `Guarantee` surfaces through a condition-bounded interpretive reading.
 - PAG: bounded explicit-state-carrying line centered on the post-acceptance gap under a public release surface.
 
-## Cross-Series Implementation Note
-IME introduced the stateless API execution pattern that later appears again in
-the standalone `reuse` line, Coupled, and `NRR-Patterns`.
+## Cross-Series Implementation Note (Phase 1.5)
+Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the `NRR-Patterns` line.
+
+## Current Handling Note
+- The current authoritative standalone `reuse` line is `hidden-state-interface-reuse`; the older `nrr-transfer` repository label is historical provenance only.
+- The current standalone `reuse` submission handling is on hold while that line remains the active authority surface for that paper family.
+- If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
+- If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
+- `NRR-Patterns` is the current public authority for the former standalone `Principles` / `Boundary` zone.
+- Older standalone `Principles` / `Boundary` repo identities are treated as historical provenance rather than as separate current public authorities.
+- `NRR-Projection` is now public as its own pre-submission companion repo.
+- `post-acceptance-gap` is now public as its own bounded release-surface repo.
+- `Energy` is now public as its own pre-submission authority repo.
+- `Guarantee` is now public as its own pre-submission authority repo.
+>>>>>>> 50510c0 (Remove legacy archive repo links)
 
 ## Reproducibility Entry
 For each line, see the repository `README.md` and `reproducibility.md` as first entry points.
