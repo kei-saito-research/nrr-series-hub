@@ -1,135 +1,59 @@
 # NRR Series Hub
 
-Last updated: 2026-04-11 (JST)
+Last updated: 2026-05-14 (JST)
 
 Repository: https://github.com/kei-saito-research/nrr-series-hub
 Maintainer profile: https://github.com/kei-saito-research
 
 ## What This Page Is
-This page is a public-facing index for the Non-Resolution Reasoning (NRR) series.
-It is designed to help readers quickly find paper/code repositories and reproducibility entry points.
+
+This page is a public-facing index for stable public entry points in the Non-Resolution Reasoning (NRR) series.
+
+It separates current public arXiv papers from historical archives and work that is not currently presented as a public-front paper line.
 
 ## Core Position
+
 NRR is not an anti-LLM framework.
 NRR does not replace standard LLM use.
 NRR optimizes when to commit and when to defer, under explicit conditions.
 
-## Naming Note
-- Public naming follows repository and manuscript titles rather than older internal labels.
-- Some current public artifacts still retain historical filename stems for continuity; read the repository title and README as the current public naming.
-- Where older `paper*` labels remain inside fixed filenames or cited snapshots, treat them as historical snapshot identifiers only, not as current public numbering.
+## Current Public arXiv Papers
 
-## Current Public Spine
-- NRR-Core
-- NRR-Phi
-- NRR-IME
-- Hidden-State Interface Reuse (`reuse`)
-- NRR-Coupled
-- NRR-Patterns
-- NRR-Energy
-- NRR-Guarantee
-
-## Companion And Adjacent Public Lines
-- NRR-Projection
-- Post-Acceptance Gap (PAG)
-
-## Papers and Repositories
 ### NRR-Core
+
 - Paper: https://arxiv.org/abs/2512.13478
 - Code: https://github.com/kei-saito-research/nrr-core
 
 ### NRR-Phi
+
 - Paper: https://arxiv.org/abs/2601.19933
 - Code: https://github.com/kei-saito-research/nrr-phi
 
-### NRR-IME
-- Publication: currently on hold
-- Code: https://github.com/kei-saito-research/nrr-ime
+## Historical Public Archives
 
-### Hidden-State Interface Reuse (`reuse`)
-- Title: Cross-Task Parser/Update Reuse of a Fixed Hidden-State Operator-Target Interface on Stateless LLM APIs
-- Publication: public repository
-- Manuscript: available in repository (`manuscript/current`)
-  https://github.com/kei-saito-research/hidden-state-interface-reuse/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/hidden-state-interface-reuse
-- Historical standalone `transfer`-named material is subsumed into the current `hidden-state-interface-reuse` authority surface and is not listed as a separate public repository here.
+These repositories remain public for provenance and reproducibility history. They are not presented here as current active publication routes.
 
-### NRR-Coupled
-- Publication: pre-submission supporting line
-- Manuscript: available in repository (`manuscript/current`)  
-  https://github.com/kei-saito-research/nrr-coupled/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-coupled
+- Hidden-State Interface Reuse: https://github.com/kei-saito-research/hidden-state-interface-reuse
+- NRR-IME: https://github.com/kei-saito-research/nrr-ime
+- NRR-Transfer: https://github.com/kei-saito-research/nrr-transfer
+- NRR-Principles: https://github.com/kei-saito-research/nrr-principles
+- NRR-Boundary: https://github.com/kei-saito-research/nrr-boundary
 
-### NRR-Patterns
-- Publication: public repository for the former standalone `Principles` / `Boundary` zone
-- Manuscript: available in repository (`manuscript/current`)  
-  https://github.com/kei-saito-research/nrr-patterns/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-patterns
-- Historical standalone `Principles` / `Boundary` material is subsumed into the current `NRR-Patterns` authority surface and is not listed here as separate public repositories.
+## Work Not Currently Presented On The Public Front
 
-### NRR-Energy
-- Publication: public pre-submission calibration / operational-control line
-- Manuscript: available in repository (`manuscript/current`)
-  https://github.com/kei-saito-research/nrr-energy/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-energy
-
-### NRR-Guarantee
-- Publication: public pre-submission bounded verification / assurance line
-- Manuscript: available in repository (`manuscript/current`)
-  https://github.com/kei-saito-research/nrr-guarantee/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-guarantee
-
-### NRR-Projection
-- Publication: public repository (pre-submission companion theory line; not a numbered main-series paper)
-- Manuscript: available in repository (`manuscript/current`)
-  https://github.com/kei-saito-research/nrr-projection/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/nrr-projection
-
-### Post-Acceptance Gap (PAG)
-- Publication: public repository (bounded explicit-state-carrying release surface)
-- Manuscript: available in repository (`manuscript/current`)
-  https://github.com/kei-saito-research/post-acceptance-gap/tree/main/manuscript/current
-- Code: https://github.com/kei-saito-research/post-acceptance-gap
-
-## One-Line Scope
-- Core: introduces NRR and non-resolution as an operational principle.
-- Phi: defines text-to-state mapping and non-collapsing operator conditions.
-- IME: implementation pattern under stateless API constraints.
-- Hidden-State Interface Reuse: cross-task parser/update reuse of a fixed hidden-state operator-target interface under shared protocol conditions.
-- Coupled: dependency-consistency under coupled state updates.
-- NRR-Patterns: delayed-commitment pattern comparison with explicit provider-sensitive boundary-honesty reporting.
-- Energy: downstream calibration and operating-regime line.
-- Guarantee: closure and assurance line for commitment-control behavior.
-- Projection: Phi companion theory line linking the Phi state ontology to `NRR-Patterns` and downstream `Energy` / `Guarantee` surfaces through a condition-bounded interpretive reading.
-- PAG: bounded explicit-state-carrying line centered on the post-acceptance gap under a public release surface.
-
-## Cross-Series Implementation Note (Phase 1.5)
-Phase 1.5 is the stateless API execution pattern stabilized in IME and then reused as the practical execution contract across the standalone `reuse` line, Coupled, and the `NRR-Patterns` line.
-
-## Current Handling Note
-- The current authoritative standalone `reuse` line is `hidden-state-interface-reuse`; the older `nrr-transfer` repository label is historical provenance only.
-- The current standalone `reuse` submission handling is on hold while that line remains the active authority surface for that paper family.
-- If the standalone `reuse` line is later accepted, `IME` content is expected to be reconsidered there rather than accelerated first as a separate current submission line.
-- If the line instead moves to TechRxiv, whether `IME` stays separate or is merged remains intentionally unresolved.
-- `NRR-Patterns` is the current public authority for the former standalone `Principles` / `Boundary` zone.
-- Older standalone `Principles` / `Boundary` repo identities are treated as historical provenance rather than as separate current public authorities.
-- `NRR-Projection` is now public as its own pre-submission companion repo.
-- `post-acceptance-gap` is now public as its own bounded release-surface repo.
-- `Energy` is now public as its own pre-submission authority repo.
-- `Guarantee` is now public as its own pre-submission authority repo.
->>>>>>> 50510c0 (Remove legacy archive repo links)
-
-## Reproducibility Entry
-For each line, see the repository `README.md` and `reproducibility.md` as first entry points.
+Other repositories may exist publicly while their paper or release identity is still being revised, prepared, or held back from the public front. They should not be read as accepted, submitted, or final publication routes unless their own README says so.
 
 ## DOI / Archive
-For citation-ready archived versions, use the DOI/Zenodo links listed in each paper repository README.
+
+For current public arXiv papers, use the DOI/Zenodo guidance in the corresponding paper repository. Historical archives may retain older DOI-bearing snapshots; those DOIs should be read as archive/provenance identifiers, not as current paper status.
 
 ## Notes on Claims
+
 - Claims are condition-bounded.
 - Gains and regressions are both reported.
 - Boundary/failure regions are part of the result, not excluded exceptions.
 
 ## Contact
-Kei Saito  
+
+Kei Saito
 Email: kei.saito.research@gmail.com
