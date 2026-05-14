@@ -35,9 +35,6 @@ These repositories remain public because they preserve earlier material, provena
 
 - Hidden-State Interface Reuse: https://github.com/kei-saito-research/hidden-state-interface-reuse
 - NRR-IME: https://github.com/kei-saito-research/nrr-ime
-- NRR-Transfer: https://github.com/kei-saito-research/nrr-transfer
-- NRR-Principles: https://github.com/kei-saito-research/nrr-principles
-- NRR-Boundary: https://github.com/kei-saito-research/nrr-boundary
 
 ## Work Not Currently Presented On The Public Front
 
