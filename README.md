@@ -7,9 +7,9 @@ Maintainer profile: https://github.com/kei-saito-research
 
 ## What This Page Is
 
-This page is a public-facing index for stable public entry points in the Non-Resolution Reasoning (NRR) series.
+This page is a public-facing index for NRR-titled public papers.
 
-It separates current public arXiv papers from public material archives and work that is not currently presented as a public-front paper line.
+It is not the umbrella for every later ambiguity-preservation paper. Later work may use separate repository names when released.
 
 ## Core Position
 
@@ -17,7 +17,7 @@ NRR is not an anti-LLM framework.
 NRR does not replace standard LLM use.
 NRR optimizes when to commit and when to defer, under explicit conditions.
 
-## Current Public arXiv Papers
+## Current Public Papers
 
 ### NRR-Core
 
@@ -29,20 +29,13 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Paper: https://arxiv.org/abs/2601.19933
 - Code: https://github.com/kei-saito-research/nrr-phi
 
-## Public Material Archives
+## Work Not Listed Here
 
-These repositories remain public because they preserve earlier material, provenance, or reproducibility history. They are not presented here as current active publication routes or current paper fronts.
-
-- Hidden-State Interface Reuse: https://github.com/kei-saito-research/hidden-state-interface-reuse
-- NRR-IME: https://github.com/kei-saito-research/nrr-ime
-
-## Work Not Currently Presented On The Public Front
-
-Other repositories may exist publicly while their paper or release identity is still being revised, prepared, or held back from the public front. They should not be read as accepted, submitted, or final publication routes unless their own README says so.
+Work in preparation is kept private until its paper or release identity is stable. Non-NRR-titled work, including later ARA/NDP-style repositories, may be released separately rather than through this hub.
 
 ## DOI / Archive
 
-For current public arXiv papers, use the DOI/Zenodo guidance in the corresponding paper repository. Public material archives may retain older DOI-bearing snapshots; those DOIs should be read as material/provenance identifiers, not as current paper status.
+For current public papers, use the DOI/Zenodo guidance in the corresponding paper repository. Historical archive records, where they exist, should not be read as current paper status.
 
 ## Notes on Claims
 
