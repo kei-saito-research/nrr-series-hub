@@ -9,7 +9,7 @@ Maintainer profile: https://github.com/kei-saito-research
 
 This page is a public-facing index for stable public entry points in the Non-Resolution Reasoning (NRR) series.
 
-It separates current public arXiv papers from historical archives and work that is not currently presented as a public-front paper line.
+It separates current public arXiv papers from public material archives and work that is not currently presented as a public-front paper line.
 
 ## Core Position
 
@@ -29,9 +29,9 @@ NRR optimizes when to commit and when to defer, under explicit conditions.
 - Paper: https://arxiv.org/abs/2601.19933
 - Code: https://github.com/kei-saito-research/nrr-phi
 
-## Historical Public Archives
+## Public Material Archives
 
-These repositories remain public for provenance and reproducibility history. They are not presented here as current active publication routes.
+These repositories remain public because they preserve earlier material, provenance, or reproducibility history. They are not presented here as current active publication routes or current paper fronts.
 
 - Hidden-State Interface Reuse: https://github.com/kei-saito-research/hidden-state-interface-reuse
 - NRR-IME: https://github.com/kei-saito-research/nrr-ime
@@ -45,7 +45,7 @@ Other repositories may exist publicly while their paper or release identity is s
 
 ## DOI / Archive
 
-For current public arXiv papers, use the DOI/Zenodo guidance in the corresponding paper repository. Historical archives may retain older DOI-bearing snapshots; those DOIs should be read as archive/provenance identifiers, not as current paper status.
+For current public arXiv papers, use the DOI/Zenodo guidance in the corresponding paper repository. Public material archives may retain older DOI-bearing snapshots; those DOIs should be read as material/provenance identifiers, not as current paper status.
 
 ## Notes on Claims
 
